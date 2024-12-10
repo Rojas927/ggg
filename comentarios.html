@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+    <title>Comentarios</title>
+</head>
+<body class="bodycomentario"> 
+    <header>
+        <img src="../Img/tienda-de-muebles.png" alt="">
+        <h1 class="logo">MUEBLES DON LUCHO</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu"><span>&#8801</span></label>
+    <nav class="menu">
+        <a href="../Paginas/Muebles.html">Inicio</a>
+            <a href="../Paginas/productos.html">Productos</a>
+            <a href="../Paginas/Adornos.html">Adornos</a>
+            <a href="../Paginas/sucursales.html">Sucursales</a>
+            <a href="../Paginas/asesoria.html">Asesoria</a>
+            <a href="#">!Deja tu comentario¡</a>
+        <label for="check" class="esconder-menu"><span>&#215</span></label>
+    </nav>
+    </header>
+<div class="contenedor-comentario">
+    <h1>¡Dejale tu comentario a  <br>Don Lucho!</h1>
+
+    <form>
+        <div class="caja-comen">
+            <label>¿Cuál fue el motivo de tu visita?</label>
+            <select>
+                <option value="compra">Compra de nuestros productos</option>
+                <option value="asesoria">Busca de asesoria</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+
+        <div class="caja-comen">
+            <label>¿Tienes algun reclamo?</label>
+            <select name="reclamos" id="reclamos">
+                <option value="devolucion">Quiero realizar una devolucion</option>
+                <option value="informacion">La información no es clara</option>
+                <option value="no">Ninguno</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+
+        <div class="caja-comen">
+            <label>Cuentanos tu experiencia con nuestros productos</label>
+            <textarea name="sugerencia" id="sugerencia" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+<footer>
+    <div class="contenedor-footer">
+    <p>&copy;Muebles Don Lucho</p>
+   <p>2024</p>
+   <p>Tunja</p>
+    </div>
+</footer>
+</body>
+</html>
